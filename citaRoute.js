@@ -1,5 +1,5 @@
 module.exports = app => {
-    const cita = require('../controllers/citaController.js');
+    const cita = require('../citaController.js');
 
     app.get('/cita', cita.findAll);
 
