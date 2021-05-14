@@ -1,4 +1,4 @@
-const Citas = require("../models/citaModel.js");
+const Citas = require("./citaModel.js");
 
 exports.findAll = (req, res) => {
   Citas.getAll((err, data) => {
