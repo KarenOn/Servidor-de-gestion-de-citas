@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Dimensions, Button, StyleSheet, Text, View } from 'react-native';
-import { Map, Modal, Panel, Input, List } from '../components';
+import { Map, Modal, Panel, Input, List } from './';
 
 export default () => {
     const [puntos, setPuntos] = useState([]);
