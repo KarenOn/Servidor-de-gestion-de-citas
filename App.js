@@ -1,11 +1,11 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import UserScreen  from './screens/UserScreen';
-import LocationScreen  from './screens/LocationScreen';
-import DetailScreen  from './screens/DetailScreen';
-import AddLocationScreen from './screens/AddLocationScreen';
-import Inicio from './screens/Inicio';
-import LocationUser from './screens/LocationUser';
+import UserScreen  from './UserScreen';
+import LocationScreen  from './LocationScreen';
+import DetailScreen  from './DetailScreen';
+import AddLocationScreen from './AddLocationScreen';
+import Inicio from './Inicio';
+import LocationUser from './LocationUser';
 
 const AppNavigator = createStackNavigator({
   Inicio: {
