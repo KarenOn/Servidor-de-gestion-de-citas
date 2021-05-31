@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, FlatList, Text } from 'react-native';
-import ListItem from '../components/ListItem';
+import ListItem from './ListItem';
 
 export default ({navigation}) => {
     const [loading, setLoading] = useState(true);
